@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --bg-color: #0f141c;
+  --bs-white: #fff;
+}
+
+/*-------------Text with automatic color transition start--------------*/
+.main {
+  align-items: center;
+  padding: 20px;
+  background-color: var(--bg-color);
+}
+
+.main-container {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.container h2 {
+  font-size: 48px;
+  background: var(--bs-white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.highlight {
+  font-size: 4rem;
+  background: linear-gradient(90deg, #ff7d61, #ffdb59, #ff33f6, #fddd68);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 3s linear infinite;
+  transition: color 1s ease;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/*-------------Text with automatic color transition end--------------*/
