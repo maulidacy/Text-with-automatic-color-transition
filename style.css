@@ -26,13 +26,6 @@
   padding: 50px 50px;
 }
 
-.container h2 {
-  font-size: 48px;
-  background: var(--bs-white);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 .highlight {
   font-size: 4rem;
   background: linear-gradient(90deg, #ff7d61, #ffdb59, #ff33f6, #fddd68);
